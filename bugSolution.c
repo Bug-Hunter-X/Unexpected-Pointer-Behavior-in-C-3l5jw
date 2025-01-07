@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; printf("%d\n", x); //The output will be 20, demonstrating correct pointer usage return 0; }
